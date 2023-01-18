@@ -11,6 +11,8 @@
 		9C25F5D62978B57D0057C1D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25F5D52978B57D0057C1D8 /* ContentView.swift */; };
 		9C25F5D82978B57F0057C1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C25F5D72978B57F0057C1D8 /* Assets.xcassets */; };
 		9C25F5DB2978B57F0057C1D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C25F5DA2978B57F0057C1D8 /* Preview Assets.xcassets */; };
+		9C25F5E72978B9180057C1D8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25F5E62978B9180057C1D8 /* API.swift */; };
+		9C25F5E92978B94C0057C1D8 /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25F5E82978B94C0057C1D8 /* API+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9C25F5D52978B57D0057C1D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C25F5D72978B57F0057C1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C25F5DA2978B57F0057C1D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C25F5E62978B9180057C1D8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		9C25F5E82978B94C0057C1D8 /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,11 @@
 		9C25F5D22978B57D0057C1D8 /* WeatherAppProject */ = {
 			isa = PBXGroup;
 			children = (
+				9C25F5E52978B8F00057C1D8 /* LottieAnimations */,
+				9C25F5E42978B8BD0057C1D8 /* Networking */,
+				9C25F5E32978B73E0057C1D8 /* ViewModels */,
+				9C25F5E22978B7360057C1D8 /* Views */,
+				9C25F5E12978B72B0057C1D8 /* Models */,
 				9C25F5D32978B57D0057C1D8 /* WeatherAppProjectApp.swift */,
 				9C25F5D52978B57D0057C1D8 /* ContentView.swift */,
 				9C25F5D72978B57F0057C1D8 /* Assets.xcassets */,
@@ -65,6 +74,43 @@
 				9C25F5DA2978B57F0057C1D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C25F5E12978B72B0057C1D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C25F5E22978B7360057C1D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C25F5E32978B73E0057C1D8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9C25F5E42978B8BD0057C1D8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9C25F5E62978B9180057C1D8 /* API.swift */,
+				9C25F5E82978B94C0057C1D8 /* API+Extensions.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9C25F5E52978B8F00057C1D8 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C25F5E92978B94C0057C1D8 /* API+Extensions.swift in Sources */,
+				9C25F5E72978B9180057C1D8 /* API.swift in Sources */,
 				9C25F5D62978B57D0057C1D8 /* ContentView.swift in Sources */,
 				9C25F5D42978B57D0057C1D8 /* WeatherAppProjectApp.swift in Sources */,
 			);
