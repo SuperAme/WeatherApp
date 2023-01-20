@@ -19,6 +19,7 @@
 		9C25F5F12979A5C40057C1D8 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25F5F02979A5C40057C1D8 /* WeatherDetail.swift */; };
 		9C25F5F32979A5D30057C1D8 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25F5F22979A5D30057C1D8 /* DailyWeather.swift */; };
 		9C25F5F52979A5EE0057C1D8 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25F5F42979A5EE0057C1D8 /* Temperature.swift */; };
+		9C25F5F7297B09DD0057C1D8 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25F5F6297B09DD0057C1D8 /* CityViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		9C25F5F02979A5C40057C1D8 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		9C25F5F22979A5D30057C1D8 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		9C25F5F42979A5EE0057C1D8 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		9C25F5F6297B09DD0057C1D8 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		9C25F5E32978B73E0057C1D8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9C25F5F6297B09DD0057C1D8 /* CityViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C25F5ED29799EA20057C1D8 /* NetworkManager.swift in Sources */,
+				9C25F5F7297B09DD0057C1D8 /* CityViewViewModel.swift in Sources */,
 				9C25F5F12979A5C40057C1D8 /* WeatherDetail.swift in Sources */,
 				9C25F5E92978B94C0057C1D8 /* API+Extensions.swift in Sources */,
 				9C25F5E72978B9180057C1D8 /* API.swift in Sources */,
