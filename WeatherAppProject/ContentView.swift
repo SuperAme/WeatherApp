@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var cityVM = CityViewViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack(alignment: .bottom) {
+            VStack(spacing: 0) {
+                MenuHeaderView(cityVM: cityVM)
+                ScrollView(showsIndicators: false) {
+                    CityView(cityVM: cityVM)
+                }
+            }.padding(.top, 40)
         }
-        .padding()
+        .background(
+            LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.3593835426, green: 0.5394480179, blue: 0.6798806095, alpha: 1)), Color(#colorLiteral(red: 0.1708288524, green: 0.3240187944, blue: 0.6798806095, alpha: 1))]),
+                           startPoint: .topLeading,
+                           endPoint: .bottomTrailing)
+        )
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
